@@ -50,7 +50,7 @@ function generatePassword(){
 
     var repeat = true;
     //take user input, conver it to integer.
-    var temp = parseInt( window.prompt("Please enter password length, 8~128."));
+    var temp = parseInt( window.prompt("Please enter the lenght of your password, 8 ~ 128."));
     
     // Accept password length if its in the correct length. Otherwise, repeat process.
     if (8<=temp&&temp<=128){
@@ -58,7 +58,7 @@ function generatePassword(){
       repeat = false;
 
     }else {
-      window.alert("Please enter a interger btweeen 8 to 128.")
+      window.alert("Please enter a integer btweeen 8 to 128.")
     }
 
   } while(repeat);
@@ -136,7 +136,6 @@ function generatePassword(){
           break;
 
         default:
-          // You're not supposed to be here.
           console.log("unexpected error!");
           return;
           break;
