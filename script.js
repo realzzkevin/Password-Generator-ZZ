@@ -84,7 +84,7 @@ function generatePassword(){
       }
 
     }else {
-      window.alert("please choose a least one criteria.");
+      window.alert("please choose a least one character type!");
     }
 
 
